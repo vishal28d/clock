@@ -1,0 +1,41 @@
+#clockContainer{
+ /* background-color: antiquewhite; */
+ margin: auto;
+
+    width: 40vw;
+    height: 40vw;
+    background : url("http://clipart-library.com/images/zcX5BXrri.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+#minute{
+    width: 2.1px;
+    height: 80px;
+    position: relative;
+left: 140px;
+top: -08px;
+  transform-origin: bottom;
+}
+#hour{
+    width: 3px;
+    height: 60px;
+    position: relative;
+left: 138px;
+top: 71px;
+  transform-origin: bottom;
+  
+}
+#second{
+       width: 2px;
+       height: 90px;
+       position: relative;
+  left: 138px;
+  top: -98px;
+  transform-origin:bottom ;
+
+}
